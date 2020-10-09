@@ -15,4 +15,22 @@
 - 11. O(n) directly proportional to the number of disks algo would be to move next disc to the next stack until disk dot length is reached
 - 12. 
 
+function CountSheep(num){
+    let i;
+    for (i = num; i > 0; i--){
+        console.log(`${i} : Another sheep jumps over the fence`)
+    }
+    return 'All sheep jumped over the fence'
+}
 
+console.log(CountSheep(3));
+----------------------------------
+function exponential(a,b){
+    var c = 1;
+    for(var i=1; i<=b; i++){
+        c = c * a;
+    }
+    return c;
+}
+
+console.log(exponential(2,5));
