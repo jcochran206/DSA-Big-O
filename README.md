@@ -24,7 +24,9 @@ function CountSheep(num){
 }
 
 console.log(CountSheep(3));
-----------------------------------
+
+
+
 function exponential(a,b){
     var c = 1;
     for(var i=1; i<=b; i++){
